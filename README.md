@@ -30,6 +30,7 @@ Blog:
 will take authorId from token
 
 /api/v1/blog (GET ALL BLOG)
+
 /api/v1/blog/id (GET BLOG BY ID)
 
 /api/v1/blog/update/id (GET BLOG BY ID)
