@@ -116,7 +116,7 @@ const router = express.Router();
  *         schema:
  *           type: string
  *     security:
- *       - Authorizatoin: []
+ *       - BearerAuth: []
  *     requestBody:
  *       required: true
  *       content:

@@ -16,8 +16,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cookieParser());
 
-app.use('/api/v1/api-docs/auth', swaggerUi.serve,swaggerUi.setup(AuthSwagger.specs));
 app.use('/api/v1/api-docs/blog', swaggerUi.serve,swaggerUi.setup(BlogSwagger.specs));
+app.use('/api/v1/api-docs/auth', swaggerUi.serve,swaggerUi.setup(AuthSwagger.specs));
+
 app.use('/api/v1', routes);
 
 
